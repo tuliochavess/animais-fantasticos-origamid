@@ -1,141 +1,190 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="_css/estilo.css" />
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Animais Fantásticos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:700|Playfair+Display+SC" rel="stylesheet">
+  <script>document.documentElement.className += ' js';</script>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
-
 <body>
+  <div class="grid-container">
+    <nav class="menu" data-menu="suave">
+      <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul data-menu="list" id="menu">
+        <li><a href="#animais">Animais</a></li>
+        <li data-dropdown>
+          <a href="sobre.html">Sobre</a>
+          <ul class="dropdown-menu">
+            <li><a href="empresa.html">A Empresa</a></li>
+            <li><a href="equipe.html">Equipe</a></li>
+            <li><a href="socios.html">Sócios</a></li>
+            <li><a href="investidores.html">Investidores</a></li>
+          </ul>
+        </li>
+        <li><a href="#faq">Faq</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a data-modal="abrir" href="login.html">Login <span class="arrow-black"></span></a></li>
+      </ul>
+    </nav>
+    <section class="grid-section animais" data-anime="scroll" id="animais">
+      <h1 class="titulo">Animais Fantásticos</h1>
+      <ul class="animais-lista" data-tab="menu">
+        <li>
+          <img src="img/imagem1.jpg">
+        </li>
+        <li>
+          <img src="img/imagem2.jpg">
+        </li>
+        <li>
+          <img src="img/imagem3.jpg">
+        </li>
+        <li>
+          <img src="img/imagem4.jpg">
+        </li>
+        <li>
+          <img src="img/imagem5.jpg">
+        </li>
+        <li>
+          <img src="img/imagem6.jpg">
+        </li>
+      </ul>
+      <div class="animais-descricao" data-tab="content">
+        <section data-anime="show-right">
+          <h2>Raposa</h2>
+          <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados
+            por um focinho comprido e uma cauda longa e peluda.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
+          <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados
+            por um focinho comprido e uma cauda longa e peluda.</p>
+        </section>
+        
+        <section data-anime="show-right">
+          <h2>Esquilo</h2>
+          <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados
+            por um focinho comprido e uma cauda longa e peluda.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
+          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas verdadeiras", do
+            qual a raposa vermelha é a mais comum.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
+          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas verdadeiras", do
+            qual a raposa vermelha é a mais comum.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
+        </section>
+        <section data-anime="show-down">
+          <h2>Urso</h2>
+          <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados
+            por um focinho comprido e uma cauda longa e peluda.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
+          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas verdadeiras", do
+            qual a raposa vermelha é a mais comum.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
+        </section>
+        <section data-anime="show-down">
+          <h2>Lobo</h2>
+          <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados
+            por um focinho comprido e uma cauda longa e peluda.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
+          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas verdadeiras", do
+            qual a raposa vermelha é a mais comum.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
+        </section>
+        <section data-anime="show-right">
+          <h2>Macaco</h2>
+          <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados
+            por um focinho comprido e uma cauda longa e peluda.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
+          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas verdadeiras", do
+            qual a raposa vermelha é a mais comum.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
+        </section>
+        <section data-anime="show-right">
+          <h2>Leão</h2>
+          <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados
+            por um focinho comprido e uma cauda longa e peluda.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
+          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas verdadeiras", do
+            qual a raposa vermelha é a mais comum.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
+        </section>
+      </div>
+    </section>
 
-  <nav class="menu js-menu">
-    <ul>
-      <li><a href="#animais">Animais</a></li>
-      <li><a href="#faq">Faq</a></li>
-      <li><a href="#contato">Contato</a></li>
-      <li><a href="http://github.com/tuliochavess">Dev →</a></li>
-      <li><a href="http://origamid.com">Dev Professor →</a></li>
-    </ul>
-  </nav>
+    <section class="grid-section faq" data-anime="scroll" id="faq">
+      <h1 class="titulo">FAQ</h1>
+      <dl class="faq-lista" data-anime="accordion">
+        <dt>Qual a idade dos animais?</dt>
+        <dd>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</dd>
+        <dt>Eles são fantásticos?</dt>
+        <dd>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</dd>
+        <dt>Qual a diferença?</dt>
+        <dd>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</dd>
+        <dt>Como proteger?</dt>
+        <dd>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</dd>
+      </dl>
+    </section>
 
-  <section class="grid-section animais js-scroll" id="animais">
+    <section class="grid-section galeria" data-anime="scroll">
+      <ul class="custom-controls">
+        <li><img src="img/slide/foto1-thumb.jpg" alt=""></li>
+        <li><img src="img/slide/foto2-thumb.jpg" alt=""></li>
+        <li><img src="img/slide/foto3-thumb.jpg" alt=""></li>
+        <li><img src="img/slide/foto4-thumb.jpg" alt=""></li>
+        <li><img src="img/slide/foto5-thumb.jpg" alt=""></li>
+        <li><img src="img/slide/foto6-thumb.jpg" alt=""></li>
+      </ul>
+      <div class="slide-wrapper">
+        <ul class="slide">
+          <li><img src="img/slide/foto1.jpg" alt=""></li>
+          <li><img src="img/slide/foto2.jpg" alt=""></li>
+          <li><img src="img/slide/foto3.jpg" alt=""></li>
+          <li><img src="img/slide/foto4.jpg" alt=""></li>
+          <li><img src="img/slide/foto5.jpg" alt=""></li>
+          <li><img src="img/slide/foto6.jpg" alt=""></li>
+        </ul>
+      </div>
+    </section>
 
-    <h1 class="titulo">Animais Fantásticos</h1>
+    <section class="grid-section numeros" data-anime="scroll">
+      <h1 class="titulo">Números</h1>
+      <div class="numeros-grid">
+      </div>
+    </section>
 
-    <ul class="animais-lista js-tabmenu">
-      <li>
-        <img src="_img/imagem1.jpg">
-      </li>
-      <li>
-        <img src="_img/imagem2.jpg">
-      </li>
-      <li>
-        <img src="_img/imagem3.jpg">
-      </li>
-      <li>
-        <img src="_img/imagem4.jpg">
-      </li>
-      <li>
-        <img src="_img/imagem5.jpg">
-      </li>
-      <li>
-        <img src="_img/imagem6.jpg">
-      </li>
-    </ul>
+    <section class="grid-section contato" data-anime="scroll" id="contato">
+      <h1 class="titulo">Contato</h1>
+      <div class="mapa" data-tooltip aria-label="Endereço próximo ao estacionamento.">
+        <img src="img/mapa.png">
+      </div>
+      <ul class="dados">
+        <li>contato@origamid.com</li>
+        <li>+55 (21) 9999-9999</li>
+        <li>Rua do Conde, nº 21</li>
+        <li>Rio de Janeiro - RJ</li>
+        <li>Doe <span class="btc-preco">0</span> bitcoin para nos ajudar</li>
+        <li data-semana="1,2,3,4,5" data-horario="8,18">Seg à Sex das 8 às 18</li>
+      </ul>
+    </section>
 
-    <div class="animais-descricao js-tabcontent">
+    <footer class="copy">
+      <p>Todos os direitos reservados.</p>
+    </footer>
+  </div>
 
-      <section>
-        <h2>Raposa</h2>
-        <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados
-          por um focinho comprido e uma cauda longa e peluda.</p>
-        <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
-        <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas verdadeiras", do
-          qual a raposa vermelha é a mais comum.</p>
-        <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
-      </section>
-
-      <section>
-        <h2>Esquilo</h2>
-        <p>Os esquilos pertencem a uma grande família de mamíferos roedores, de pequeno e médio porte, conhecida como Sciuridae. No Brasil, são também conhecidos como serelepe, caxinguelê, caxinxe, quatimirim, quatipuru, agutipuru ou acutipuru.</p>
-        <p>Na Galiza e em algumas zonas de Portugal, também é conhecido por esquio.</p>
-        <p>Os esquilos estão espalhados por quase todo o mundo, a maioria nas zonas de climas temperado ou tropical, mas também em algumas zonas de clima frio.</p>
-        <p> Como todos os roedores, possui presas fortíssimas, com que roem facilmente sementes, principalmente bolotas.</p>
-      </section>
-
-      <section>
-        <h2>Urso</h2>
-        <p>Os Ursos (latim científico: Ursidae) constituem uma família de mamíferos plantígrados, da ordem Carnivora, geralmente de grande porte, contendo os ursos e os pandas.</p>
-        <p>Embora classificado como urso, e logo após, como procionídeo, junto com o panda-vermelho, o panda-gigante foi recolocado dentro da família dos ursídeos devido às novas pesquisas genéticas.</p>
-        <p>Algumas características comuns dos ursos são pelagem espessa, rabo curto, o olfato desenvolvido e as garras não retráteis.</p>
-        <p> Os ursídeos são geralmente animais omnívoros, mas se alimentam principalmente de carne.</p>
-      </section>
-
-      <section>
-        <h2>Lobo</h2>
-        <p>O lobo (também chamado de lobo-cinzento; nome científico: Canis lupus) é uma espécie de mamífero canídeo do gênero Canis.</p>
-        <p>É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior, cerca de 300 mil anos atrás</p>
-        <p>É o maior membro remanescente selvagem da família canidae.</p>
-        <p> O sequenciamento de DNA e estudos genéticos reafirmam que o lobo-cinzento é ancestral do cão doméstico (Canis lupus familiaris), contudo alguns aspectos desta afirmação têm sido questionados recentemente.</p>
-      </section>
-
-      <section>
-        <h2>Macaco</h2>
-        <p>Macaco é um termo de origem africana (provavelmente do banto makako) utilizado como designação comum a todas as espécies de símios ou primatas antropoides.</p>
-        <p>É aplicada restritivamente no Brasil aos cebídeos (ou macacos do Novo Mundo) em geral. No sentido estrito, "macaco" refere-se às espécies de primatas pertencentes ao género Macaca.</p>
-        <p>A designação mico se origina, segundo o Dicionário Aurélio,[2] do caraíba (karib) continental.</p>
-        <p>É bastante usada no Brasil, onde costuma aplicar-se às espécies do gênero Cebus, no Sul, e às espécies de pequeno porte, ou saguis, no Norte.</p>
-      </section>
-
-      <section>
-        <h2>Leão</h2>
-        <p>O leão [feminino: leoa] (nome científico: Panthera leo) é uma espécie de mamífero carnívoro do gênero Panthera e da família Felidae.</p>
-        <p>A espécie é atualmente encontrada na África subsaariana e na Ásia, com uma única população remanescente em perigo, no Parque Nacional da Floresta de Gir, Gujarat, Índia.</p>
-        <p>Foi extinto na África do Norte e no Sudoeste Asiático em tempos históricos, e até o Pleistoceno Superior, há cerca de 10 000 anos, era o mais difundido grande mamífero terrestre depois dos humanos, sendo encontrado na maior parte da África, em muito da Eurásia, da Europa Ocidental à Índia, e na América, do Yukon ao México.</p>
-        <p>É uma dos quatro grandes felinos, com alguns machos excedendo 250 quilogramas em peso, sendo o segundo maior felino recente depois do tigre.</p>
-      </section>
+  <section class="modal-container" data-modal="container">
+    <div class="modal">
+      <button data-modal="fechar" class="fechar"></button>
+      <form action="">
+        <label for="email">Email</label>
+        <input type="text" for="email" id="email">
+        <label for="senha">Senha</label>
+        <input type="password" for="senha" id="senha">
+        <button type="submit">Entrar</button>
+      </form>
     </div>
-
   </section>
-
-  <section class="grid-section faq js-scroll" id="faq">
-    <h1 class="titulo">Faq</h1>
-    <dl class="faq-lista js-accordion">
-      <dt>Qual a idade dos animais?</dt>
-      <dd>Depende do quanto eles vivem.</dd>
-      <dt>Eles são fantásticos?</dt>
-      <dd>Muito, são seres lindos e extraordinários.</dd>
-      <dt>Qual a diferença?</dt>
-      <dd>Basicamente tudo.</dd>
-      <dt>Como proteger?</dt>
-      <dd>Não os mate.</dd>
-    </dl>
-  </section>
-
-  <section class="grid-section contato js-scroll" id="contato">
-
-    <h1 class="titulo">Contato</h1>
-    <div class="mapa">
-      <img src="_img/mapa.png">
-    </div>
-
-    <ul class="dados">
-      <li>tuliochavess@gmail.com</li>
-      <li>+55 (31) 9 9726-6369</li>
-      <li>Rua Ipiranga, nº 106</li>
-      <li>Belo Horizonte - MG</li>
-    </ul>
-  </section>
-
-  <footer class="copy">
-    <p>Todos os direitos reservados. Origamid 2020.</p>
-  </footer>
-
-  <script src="_js/script.js"></script>
+  <script src="main.js"></script>  
 </body>
-
 </html>
